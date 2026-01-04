@@ -35,4 +35,11 @@ As required by the internship instructions, the model was evaluated using high-s
 ### 🚀 How to Run
 1. Navigate to this folder.
 2. Install dependencies: `pip install -r ../requirements.txt`.
-3. Launch the app: `streamlit run streamlit_app.py`..
+3. Setup Environment Variables:
+
+Create a new file named .env.
+Add the following lines (replace with your own values)
+NGROK_AUTH_TOKEN=your_ngrok_token_here
+APP_AUTH_CODE=your_preferred_login_password
+
+4. Launch the app: `streamlit run streamlit_app.py`..
