@@ -1,0 +1,38 @@
+#  Task 1: Credit Scoring Model
+**Internship:** CodeAlpha Machine Learning Internship 
+**Developer:** Hammad Farooqi
+
+---
+
+## 🎯 Objective
+The goal of this project is to predict an individual's credit worthiness by analyzing historical financial data. This model assists financial institutions in determining the risk level associated with lending to specific applicants
+
+## 🛠️ Approach & Methodology
+I implemented a robust machine learning pipeline focusing on classification algorithms:
+* **Algorithm used:** Random Forest Classifier
+* **Feature Engineering:** Processed financial history including income, debt ratios, and payment behavior
+* **Handling Missing Data:** Applied median imputation for income and dependents to ensure data integrity.
+* **Scaling:** Utilized StandardScaler to normalize features for improved model convergence.
+
+## 📈 Performance Metrics
+As required by the internship instructions, the model was evaluated using high-standard metrics[cite: 32]:
+* **ROC-AUC Score:** 0.8621 (Demonstrating strong predictive power)
+* **Accuracy:** ~94%.
+* **Evaluation:** Assessment included Precision, Recall, and F1-Score to ensure a balanced view of model performance[cite: 32].
+
+## 💻 Tech Stack
+* **Language:** Python
+* **Libraries:** Scikit-learn, Pandas, NumPy, Joblib
+* **Deployment:** Interactive Streamlit Dashboard for real-time risk scoring.
+
+## 📂 Folder Contents
+* `streamlit_app.py`: The web interface for the model.
+* `credit_scoring_model.joblib`: The trained Random Forest model.
+* `feature_scaler.joblib`: The fitted scaler for input normalization.
+
+
+---
+### 🚀 How to Run
+1. Navigate to this folder.
+2. Install dependencies: `pip install -r ../requirements.txt`.
+3. Launch the app: `streamlit run streamlit_app.py`..
