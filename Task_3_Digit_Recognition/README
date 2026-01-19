@@ -1,0 +1,30 @@
+# 🖋️ Deep Learning: Handwritten Digit Recognizer
+
+A high-accuracy Convolutional Neural Network (CNN) built to recognize handwritten digits in real-time. This project demonstrates an end-to-end Machine Learning pipeline: from **data augmentation** and **model training** in Google Colab to a **live web dashboard** via Streamlit.
+
+
+
+## 🚀 Features
+* **99%+ Accuracy:** Trained on a Deep CNN with Batch Normalization and Dropout to minimize confusion between digits like 1 and 7.
+* **Real-time Canvas:** Interactive drawing board for user input.
+* **Auto-Centering Logic:** Pre-processing that crops and centers drawings to match the AI's training data.
+* **Founder-Ready Architecture:** Clean, modular code designed for scalability.
+
+---
+
+## 🛠️ Local Setup Instructions
+
+Follow these steps to run the project on your local machine:
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/HammadFarooqi/Task_3_Handwritten_Digit_Recognition.git](https://github.com/HammadFarooqi/Task_3_Handwritten_Digit_Recognition.git)
+cd Task_3_Handwritten_Digit_Recognition
+
+
+HOW TO RUN 
+
+python -m venv venv_final
+.\venv_final\Scripts\Activate.ps1
+pip install -r requirements.txt
+streamlit run app.py
